@@ -1,8 +1,17 @@
 export default function Home() {
   return (
-    <main className="flex flex-col items-center justify-center bg-gray-100 min-h-screen p-8">
+    <main className="flex flex-col items-center justify-center bg-gray-100 min-h-screen p-0">
       {/* Header Section */}
       <section className="mb-12 text-center">
+        
+        <img
+  src="/logo.png"
+  alt="شعار العيادة"
+  className="mx-auto mb-4 w-30 h-30 object-cover mt-4"
+  // إذا تريد الحواف دائرية أضف rounded-full، إذا لا احذفها
+        />
+
+
         <h1 className="text-4xl font-bold mb-4 text-blue-700">اهلا بكم في عيادات ايرس للعيون والليزر</h1>
         <p className="text-lg text-gray-700 mb-6">
           رعاية مختصة، تكنولوجيا حديثة، وبيئة ترحيبية
@@ -10,66 +19,71 @@ export default function Home() {
         <p className="text-base text-gray-600">
           [✨ صحتك تبدأ من عيونك… ورؤيتك تبدأ من آيرس]
         </p>
+
       </section>
+
+
 
       {/* Services Section */}
-      <section className="w-full max-w-3xl mb-12">
-        <h2 className="text-2xl font-semibold text-blue-700 mb-4">خدماتنا</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          <div className="bg-white rounded-xl p-6 shadow">
-            <h3 className="font-bold mb-2">فحص النظر الشامل</h3>
-            <p className="text-gray-600">أحدث الأجهزة للكشف المبكر عن مشاكل العيون</p>
-          </div>
-          <div className="bg-white rounded-xl p-6 shadow">
-            <h3 className="font-bold mb-2">تصحيح النظر بالليزر</h3>
-            <p className="text-gray-600">عمليات الليزك والابتسامة برو بأعلى درجات الأمان</p>
-          </div>
-          <div className="bg-white rounded-xl p-6 shadow">
-            <h3 className="font-bold mb-2">علاج الماء الأبيض</h3>
-            <p className="text-gray-600">أحدث طرق علاج الساد وجراحات العدسات المتقدمة</p>
-          </div>
-          <div className="bg-white rounded-xl p-6 shadow">
-            <h3 className="font-bold mb-2">علاج أمراض الشبكية</h3>
-            <p className="text-gray-600">متابعة وعلاج أمراض الشبكية والسكري بإشراف خبراء</p>
-          </div>
-        </div>
-      </section>
+<section className="w-full max-w-3xl mb-12">
+  <h2 className="text-2xl font-semibold text-blue-700 mb-4">خدماتنا</h2>
+  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+    <div className="bg-white rounded-xl p-6 shadow border-2 border-blue-400 text-right">
+      <h3 className="font-bold mb-2 ">فحص النظر الشامل</h3>
+      <p className="text-gray-600">أحدث الأجهزة للكشف المبكر عن مشاكل العيون</p>
+    </div>
+    <div className="bg-white rounded-xl p-6 shadow border-2 border-blue-400 text-right">
+      <h3 className="font-bold mb-2">تصحيح النظر بالليزر</h3>
+      <p className="text-gray-600">عمليات الليزك والسمايل برو بأعلى درجات الأمان</p>
+    </div>
+    <div className="bg-white rounded-xl p-6 shadow border-2 border-blue-400 text-right">
+      <h3 className="font-bold mb-2">علاج الماء الأبيض</h3>
+      <p className="text-gray-600">أحدث طرق علاج الساد وجراحة العدسات المتقدمة</p>
+    </div>
+    <div className="bg-white rounded-xl p-6 shadow border-2 border-blue-400 text-right">
+      <h3 className="font-bold mb-2">علاج أمراض الشبكية</h3>
+      <p className="text-gray-600">متابعة وعلاج أمراض الشبكية والسكر بإشراف اطباء مختصين</p>
+    </div>
+  </div>
+</section>
+
 
 <section className="w-full max-w-3xl mb-12">
-  <h2 className="text-2xl font-semibold text-blue-700 mb-4">من نحن</h2>
-  <div className="bg-white rounded-xl p-6 shadow text-gray-700">
+  <h2 className="text-2xl font-semibold text-blue-700 mb-4 text-right">من نحن</h2>
+  <div className="bg-white rounded-xl p-6  shadow text-gray-700 text-right border shadow border-2 border-blue-400">
     <p>
-      تأسست عيادتنا بهدف تقديم أفضل رعاية صحية للعيون من خلال فريق طبي متكامل وأجهزة متطورة. نؤمن بأن كل مريض يستحق العناية الفردية وخطة علاج مناسبة لاحتياجاته.
+      تأسست عيادتنا بهدف تقديم أفضل رعاية صحية للعيون من خلال فريق طبي متكامل وأجهزة متطورة. نؤمن بأن كل مريض يستحق العناية الفردية وخطة علاج مناسبة لاحتياجاته
       <br /><br />
-      يضم كادرنا نخبة من الأطباء ذوي الخبرة الطويلة في جميع مجالات طب وجراحة العيون. نسعى دائماً لتوفير أحدث التقنيات الطبية لضمان نتائج دقيقة وتجربة علاج مريحة وآمنة لكل مراجعينا.
+      يضم كادرنا نخبة من الأطباء ذوي الخبرة الطويلة في جميع مجالات طب وجراحة العيون. نسعى دائماً لتوفير أحدث التقنيات الطبية لضمان نتائج دقيقة وتجربة علاج مريحة وآمنة لكل مراجعينا
     </p>
   </div>
 </section>
 
 <section className="w-full max-w-3xl mb-12 contact-us-section">
   <h2 className="text-2xl font-semibold text-blue-700 mb-4">تواصل معنا</h2>
-  <div className="bg-white rounded-xl p-6 shadow text-gray-700">
+  <div className="bg-white rounded-xl p-6 shadow text-gray-700 shadow border-2 border-blue-400">
     <form className="flex flex-col gap-4">
       <div>
-        <label className="block mb-1 font-bold" htmlFor="name">الاسم</label>
-        <input type="text" id="name" name="name" className="w-full p-2 border border-gray-300 rounded" placeholder="اكتب اسمك هنا" required />
+        <label className="block mb-1 font-bold text-right" htmlFor="name">الاسم</label>
+        <input type="text" id="name" name="name" className="w-full p-2 border border-gray-300 rounded text-right" placeholder="اكتب اسمك هنا" required />
       </div>
       <div>
-        <label className="block mb-1 font-bold" htmlFor="phone">رقم الهاتف</label>
-        <input type="tel" id="phone" name="phone" className="w-full p-2 border border-gray-300 rounded" placeholder="رقم الهاتف" required />
+        <label className="block mb-1 font-bold text-right" htmlFor="phone">رقم الهاتف</label>
+        <input type="tel" id="phone" name="phone" className="w-full p-2 border border-gray-300 rounded text-right" placeholder="رقم الهاتف" required />
       </div>
       <div>
-        <label className="block mb-1 font-bold" htmlFor="message">رسالتك</label>
-        <textarea id="message" name="message" className="w-full p-2 border border-gray-300 rounded" rows={4} placeholder="كيف يمكننا مساعدتك؟" required />
+        <label className="block mb-1 font-bold text-right" htmlFor="message">رسالتك</label>
+        <textarea id="message" name="message" className="w-full p-2 border border-gray-300 rounded text-right" rows={4} placeholder="كيف يمكننا مساعدتك؟" required />
       </div>
-      <button type="submit" className="bg-blue-700 text-white font-bold py-2 rounded hover:bg-blue-800 transition">إرسال</button>
+      <button type="submit" className="bg-blue-700 text-white font-bold py-2 rounded hover:bg-blue-800 transition text-middle">إرسال</button>
     </form>
   </div>
 </section>
 
 <section className="w-full max-w-3xl mb-12 location-section">
-  <h2 className="text-2xl font-semibold text-blue-700 mb-4">موقع العيادة</h2>
-  <div className="bg-white rounded-xl p-6 shadow text-gray-700 flex flex-col items-center">
+  <h2 className="text-2xl font-semibold text-blue-700 mb-4 text-middle">موقع العيادة</h2>
+  <div className="bg-white rounded-xl p-6 shadow text-gray-700 flex flex-col items-center shadow border-2 border-blue-400">
     <p className="mb-4">العراق - بغداد - الكرادة - شارع 42</p>
     <div className="w-full h-72 rounded overflow-hidden shadow">
       <iframe
