@@ -8,7 +8,7 @@ export default function Home() {
       <section className="mb-12 text-center">
 
         <img
-          src="/logo.png"
+          src="/Logo.png"
           alt="شعار العيادة"
           className="mx-auto mb-4 w-30 h-30 object-cover mt-4" />
 
