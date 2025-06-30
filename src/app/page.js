@@ -83,7 +83,7 @@ export default function Home() {
       </section>
 
       <section className="w-full max-w-3xl mb-12 location-section">
-        <h2 className="text-2xl font-semibold text-blue-700 mb-4 text-middle">موقع العيادة</h2>
+        <h2 className="text-2xl font-semibold text-blue-700 mb-4 text-middle text-center">موقع العيادة</h2>
         <div className="bg-white rounded-xl p-6 shadow text-gray-700 flex flex-col items-center shadow border-2 border-blue-400 shadow-[0_0_15px_2px_rgba(59,130,246,0.5)] transition-shadow duration-300 hover:shadow-[0_0_25px_6px_rgba(59,130,246,0.8)] ">
           <p className="mb-4">العراق - بغداد - الكرادة - شارع 42</p>
           <div className="w-full h-72 rounded overflow-hidden shadow">
