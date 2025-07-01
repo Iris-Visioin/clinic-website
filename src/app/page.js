@@ -14,14 +14,30 @@ export default function Home() {
 
 
         <h1 className="text-4xl font-bold mb-4 text-blue-700">اهلا بكم في عيادات ايرس للعيون والليزر</h1>
-        <p className="text-lg text-gray-700 mb-6">
-          رعاية مختصة، تكنولوجيا حديثة، وبيئة ترحيبية
-        </p>
-        <p className="text-base text-gray-600">
-          [✨ صحتك تبدأ من عيونك… ورؤيتك تبدأ من آيرس]
-        </p>
 
       </section>
+
+      <section className="max-w-2xl mx-auto my-12 px-4 py-8 bg-white rounded-xl shadow-md border border-gray-100">
+  <h2 className="text-xl md:text-2xl font-extrabold tracking-wide text-gray-900 mb-4 text-right">
+    رؤيتك الواضحة تبدأ من هنا
+  </h2>
+  <p className="italic text-blue-800 text-lg font-semibold mb-3 text-right">
+    "رؤيتنا... من أجل عيونكم"
+  </p>
+  <p className="text-gray-800 text-base md:text-lg font-medium mb-4 text-right leading-relaxed">
+    في مركز آيرس للعيون والليزر، نؤمن أن كل مراجع يستحق أفضل رعاية وأوضح رؤية. مهمتنا خلق فريق طبي متكامل يجمع الخبرة مع أحدث التقنيات العالمية، في بيئة داعمة ومحترفة تمنحكم الثقة والطمأنينة في كل مرحلة من رحلتكم الصحية
+  </p>
+  <p className="text-gray-800 text-base md:text-lg font-medium mb-4 text-right leading-relaxed">
+    "لماذا نحن؟" لأننا نعتبر وضوح رؤيتك جزءًا أساسيًا من جودة حياتك. نلتزم بأن يحصل كل مراجع على تجربة علاجية شخصية، تبدأ بالتشخيص الدقيق، وتستمر عبر كافة خدماتنا من الاستشارات إلى العمليات والرعاية اللاحقة، مع خدمة عملاء متعاونة وبيئة تشع بالرحمة والاهتمام
+  </p>
+  <p className="text-gray-800 text-base md:text-lg font-medium mb-4 text-right leading-relaxed">
+       .نحن هنا لنطور خدماتنا ونرتقي بها باستمرار حتى نقدم لكم تجربة علاجية متميزة ونتائج تليق بثقتكم
+  </p>
+  <div className="mt-6 flex justify-end">
+    <span className="text-blue-900 text-lg font-bold italic">فريق آيرس</span>
+  </div>
+</section>
+
 
 
 

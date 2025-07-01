@@ -20,11 +20,7 @@ export default function Navbar() {
       <div className="max-w-6xl mx-auto flex items-center justify-between py-3 px-4 gap-4">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2 select-none shrink-0">
-          <img
-            src="/logo.png"
-            alt="شعار آيرس"
-            className="w-10 h-10 rounded-full border-blue-400 shadow"
-          />
+          
           <span className="text-white dark:text-blue-200 text-xl font-extrabold tracking-wider hidden sm:inline">
             آيرس للعيون والليزر
           </span>
